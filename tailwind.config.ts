@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				spotify: {
+					'base': '#121212',
+					'elevated-base': '#181818',
+					'highlight': '#282828',
+					'green': '#1DB954',
+					'text': '#FFFFFF',
+					'subdued': '#B3B3B3', 
+					'bright-accent': '#1ED760',
+					'negative': '#F15E6C',
+					'warning': '#FECB0A',
+					'positive': '#1DB954',
 				}
 			},
 			borderRadius: {
